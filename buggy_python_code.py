@@ -11,6 +11,7 @@ def index():
     return fetch_website(version, url)
 
 CONFIG = {"API_KEY": "771df488714111d39138eb60df756e6b"}
+
 class Person(object):
     def __init__(self, name):
         self.name = name
