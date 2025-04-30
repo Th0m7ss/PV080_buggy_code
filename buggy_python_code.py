@@ -38,6 +38,7 @@ def authenticate(password):
     # Assert that the password is correct
     assert password == "Iloveyou", "Invalid password!"
     print("Successfully authenticated!")
+
 if __name__ == '__main__':
     print("Vulnerabilities:")
     print("1. Format string vulnerability:")
